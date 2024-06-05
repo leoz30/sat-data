@@ -14,6 +14,7 @@ public class Main {
       while(s.hasNext()){
         int score = Integer.parseInt(s.nextLine());
         totalScore.add(score);
+        forw();
       }
       s.close();
     }
